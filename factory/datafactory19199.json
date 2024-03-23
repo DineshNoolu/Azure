@@ -1,0 +1,9 @@
+{
+	"name": "datafactory19199",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "00ab3709-49c4-4747-a0c6-fa674ad09c9b",
+		"tenantId": "7359f896-71e2-4dae-b8a3-15cdf97f2f10"
+	}
+}
