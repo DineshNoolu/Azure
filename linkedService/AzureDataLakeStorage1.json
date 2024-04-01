@@ -1,0 +1,22 @@
+{
+	"name": "AzureDataLakeStorage1",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://rgtoragefordataengineer.dfs.core.windows.net/",
+			"tenant": "7359f896-71e2-4dae-b8a3-15cdf97f2f10",
+			"servicePrincipalId": "a4607a2e-11c6-46ce-964b-a750d8caa2df",
+			"servicePrincipalCredentialType": "ServicePrincipalKey",
+			"servicePrincipalCredential": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "AzureKeyVault1",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "servicesnp",
+				"secretVersion": "0a7f06b1eb3248b8ba6f2bfcc98aae51"
+			}
+		}
+	}
+}
